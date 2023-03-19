@@ -1,0 +1,6 @@
+"C:\Users\shreec\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk"
+"C:\Users\shreec\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Centiro Applications\SQL Server Management Studio 18 [Read].lnk"
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk"
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2022.lnk"
+"C:\\Users\shreec\Desktop\DailyTasks.xlsx"
+"C:\Users\shreec\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Notion.lnk"
