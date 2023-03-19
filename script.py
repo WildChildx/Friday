@@ -20,7 +20,7 @@ def listen():
     text = ""
     with sr.Microphone() as source:
         print("Clearing background noise...Please wait")
-        recognizer.adjust_for_ambient_noise(source, duration=1)
+        recognizer.adjust_for_ambient_noise(source, duration=0.5)
         speak("Hello Sir , I'm Listening")
         recordedaudio = recognizer.listen(source)
         speak("Done recording...")
@@ -40,7 +40,7 @@ while True:
     if 'stop' in msg.lower():
         speak("Good bye sir! , Have a nice day")
         break
-    elif 'initialize' in msg.lower():
+    elif 'initialise' in msg.lower() or 'initialize' in msg.lower():
         speak("Initializing developer setup")
         program = "C:\\Users\shreec\Documents\AutomaticCommands\initilizeDevSetup.bat"
         subprocess.Popen([program])
