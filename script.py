@@ -4,10 +4,13 @@ import pyttsx3
 import subprocess
 
 engine = pyttsx3.init()
+voices = engine.getProperty('voices')
+print(voices)
+engine.setProperty('voice', voices[1])
 recognizer = sr.Recognizer()
 with sr.Microphone() as source:
     print("Clearing background noise...Please wait")
-    recognizer.adjust_for_ambient_noise(source, duration=1)
+    recognizer.adjust_for_ambient_noise(source, duration=0.5)
     print("waiting for your message...")
     recordedaudio = recognizer.listen(source)
     print('Done recording')
@@ -20,11 +23,11 @@ try:
 except Exception as ex:
     print(ex)
 
-if 'developer setup' in text.lower():
+if 'setup' in text.lower():
     a = "Hello Sir , Initializing developer setup"
     engine.say(a)
     engine.runAndWait()
-    program = "C:\\Users\shreec\Documents\AutomaticCommands\startFriday.bat"
+    program = "C:\\Users\shreec\Desktop\startFriday.bat"
     subprocess.Popen([program])
 
 if 'chrome' in text.lower():

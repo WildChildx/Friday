@@ -1,0 +1,6 @@
+https://datatofish.com/executable-pyinstaller/
+https://www.computerhope.com/issues/ch000322.htm#windows-10
+https://www.youtube.com/watch?v=a8XRWljuwtI&t=38s&ab_channel=AKPython
+https://devblogs.microsoft.com/powershell-community/determine-if-a-folder-exists/#:~:text=The%20Test%2DPath%20Cmdlet&text=%24Folder%20%3D%20'C%3A%5CWindows,doesn't%20exist.%22%20%7D
+https://stackoverflow.com/questions/973561/starting-visual-studio-from-a-command-prompt
+https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/
